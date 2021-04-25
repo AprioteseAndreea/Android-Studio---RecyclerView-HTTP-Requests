@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/teal_200">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Product"
+        android:paddingLeft="45dp"
+        android:paddingStart="45dp"
+        android:padding="?android:listPreferredItemPaddingLeft"
+
+        android:id="@+id/album_name"
+        android:textSize="20dp" />
+</FrameLayout>
